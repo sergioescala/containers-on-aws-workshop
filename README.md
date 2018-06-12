@@ -1,4 +1,4 @@
-![workshop logo](https://github.com/bemer/containers-on-aws-workshop/blob/master/images/containers-on-aws-worshop-logo.jpg)
+![workshop logo](images/containers-on-aws-worshop-logo.jpg)
 
 # Welcome to the Containers On AWS Workshop
 
@@ -15,14 +15,41 @@ We are working on a content for running this workshop using a Windows machine. M
 * [Creating a Linux EC2 instance](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)
 * [Accessing a Linux EC2 instance from a Windows machine](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
 
-## 3) We strongly recommend you running this workshop in the following order:
+## 3) If you not bring your own account -- setup your Qwiklab account
 
-* [1. Setup Environments](https://github.com/bemer/containers-on-aws-workshop/tree/master/01-SetupEnvironment)
+The recommended way of walking through these labs are with your own (**non-production**) AWS account. In case you don't have one you can setup a Qwiklab account at:
 
-* [2. Creating Your Docker Image](https://github.com/bemer/containers-on-aws-workshop/tree/master/02-CreatingDockerImage)
+### https://aws.qwiklab.com
 
-* [3. Creating A VPC for the Workshop](https://github.com/bemer/containers-on-aws-workshop/tree/master/03-CreateVPC)
+![qwiklab](images/qwiklab.png)
 
-* [4. Running An ECS Cluster](https://github.com/bemer/containers-on-aws-workshop/tree/master/04-DeployEcsCluster)
+<br />
+Once logged-in, go to My Learning and Open the **[Mx] Special Event session**.
 
-* [5. Deploying An Application with AWS Fargate](https://github.com/bemer/containers-on-aws-workshop/tree/master/05-DeployFargate)
+![qwiklab-2](images/qwiklab-2.png)
+
+<br />
+
+> If you can't see the session on your My Learning page, please **reach out to your lab assistant**.
+
+## Today Labs
+
+### Lab 1: Warm-up: Docker, AWS CLI and ECR
+
+1. [Setup Environments](01-SetupEnvironment/)
+
+2. [Creating Your Docker Image](02-CreatingDockerImage/)
+
+3. [Creating A VPC](03-CreateVPC/)
+
+### Lab 2: Create your first ECS Cluster
+
+4. [Running An ECS Cluster](04-DeployEcsCluster/)
+
+### Lab 3: Containers — without servers!
+
+5. [Deploying An Application with AWS Fargate](05-DeployFargate/)
+
+### Lab 4: Continuous Deployment with ECS
+
+6. [Build a Continuous Deployment Pipeline](http://running-containers-on-aws-fargate.s3-website-us-east-1.amazonaws.com/build-a-continuous-deployment-pipeline.html)
