@@ -40,7 +40,7 @@ The next step is add your linux user to the `docker` users group, so you will be
 
 After running this command, you will need to log out and log in again in your instance. When logging in again, run the following command to see if you are able to run a Docker container:
 
-    $ docker run hello-world
+    $ sudo docker run hello-world
 
 The output should look like:
 
